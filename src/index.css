@@ -84,6 +84,7 @@ form {
 .games {
   display: flex;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .games > div {
@@ -96,11 +97,11 @@ form {
 }
 
 .games img {
-  height: 100%;
-  width: 10rem;
+  height: 10rem;
+  width: auto;
   object-fit: cover;
 }
 
 .games h2 {
-  margin: 0;
+  margin-top: 0;
 }
